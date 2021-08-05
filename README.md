@@ -6,13 +6,13 @@ Supertext provides syntax highlighting for writing notes in plain text. For the 
 
 The following are highlighted:
 
-`````heading tag```
-```tag``
-`https://some-url.com`
-`~highlighted note`
-date: `2021/08/05`
-`<<quote or code block — can spread across multiple lines>>` (or `“` and `”`)
-divider: ` // ` (or `🙼`)
+    ``heading tag
+    `tag
+    https://some-url.com
+    ~highlighted note
+    2021/08/05 (date)
+    <<quote or code block — can spread across multiple lines>> (or “ and ”)
+    // (divider, must have a space on either side; or 🙼)
 
 Example:
 
