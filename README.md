@@ -16,7 +16,7 @@ The following are highlighted:
 
 Example:
 
-![supertext plain text knowledge base syntax highlighting VS Code extension](example.png)
+![supertext plain text knowledge base syntax highlighting VS Code extension](https://raw.githubusercontent.com/fpsvogel/supertext/main/example.png)
 
 ## Syntax Settings
 
@@ -81,6 +81,10 @@ This extension contributes settings for syntax highlighting colors. To change th
     }
 
 ## Release Notes
+
+### 1.0.1 - 1.0.3
+
+Minor presentation fixes.
 
 ### 1.0.0
 
