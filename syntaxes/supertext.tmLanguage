@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>fileTypes</key>
+  <array>
+  <string>txt</string>
+  </array>
+  <key>keyEquivalent</key>
+  <string>^~T</string>
+  <key>name</key>
+  <string>supertext</string>
+  <key>patterns</key>
+  <array>
+  <dict>
+    <key>match</key>
+    <string>^``\w.*?(?=~| \d\d\d\d[-\.\/]\d\d[-\.\/]\d\d(?=\b)| https?:\/\/| “|$)</string>
+    <key>name</key>
+    <string>constant.language.heading-tag.supertext</string>
+  </dict>
+  <dict>
+    <key>match</key>
+    <string>`\w.*?(?=`|~| \d\d\d\d[-\.\/]\d\d[-\.\/]\d\d(?=\b)| https?:\/\/| “|$)</string>
+    <key>name</key>
+    <string>constant.language.tag.supertext</string>
+  </dict>
+  <dict>
+    <key>match</key>
+    <string>https?:\/\/.*?(?=\s|\)|,|$)</string>
+    <key>name</key>
+    <string>constant.language.url.supertext</string>
+  </dict>
+  <dict>
+    <key>match</key>
+    <string>(?:^|\s)~(?!\/).*?(?= \d\d\d\d[-\.\/]\d\d[-\.\/]\d\d(?=\b)| https?:\/\/| “|~|$)</string>
+    <key>name</key>
+    <string>constant.language.note.supertext</string>
+  </dict>
+  <dict>
+    <key>match</key>
+    <string>(?:^|\s)\d\d\d\d[-\.\/]\d\d[-\.\/]\d\d(?=\b)</string>
+    <key>name</key>
+    <string>constant.language.date.supertext</string>
+  </dict>
+  <dict>
+    <key>begin</key>
+    <string>(?:<<\S|“)</string>
+    <key>end</key>
+    <string>(?:\S>>|”)</string>
+    <key>name</key>
+    <string>constant.language.quote.supertext</string>
+  </dict>
+  <dict>
+    <key>match</key>
+    <string> // |🙼</string>
+    <key>name</key>
+    <string>constant.language.divider.supertext</string>
+  </dict>
+  </array>
+  <key>scopeName</key>
+  <string>text.supertext</string>
+  <key>uuid</key>
+  <string>B68B5C70-7D5A-11E0-A411-0800200C9A66</string>
+</dict>
+</plist>

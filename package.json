@@ -1,0 +1,84 @@
+{
+    "name": "supertext",
+    "displayName": "Supertext",
+    "description": "Plain text enhanced by syntax highlighting for headings, URLs, tags, and more.",
+    "version": "1.0.0",
+    "publisher": "fpsvogel",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "supertext",
+            "aliases": ["supertext", "supertext"],
+            "extensions": [".txt"]
+        }],
+        "grammars": [{
+            "language": "supertext",
+            "scopeName": "text.supertext",
+            "path": "./syntaxes/supertext.tmLanguage"
+        }],
+        "configuration": {
+          "editor.tokenColorCustomizations": {
+            "textMateRules": [
+              {
+                "scope": "constant.language.heading-tag.supertext",
+                "settings": {
+                  "foreground": "#00ff9d",
+                  "fontStyle": "bold underline"
+                }
+              },
+              {
+                "scope": "constant.language.tag.supertext",
+                "settings": {
+                  "foreground": "#F38D8D"
+                }
+              },
+              {
+                "scope": "constant.language.url.supertext",
+                "settings": {
+                  "foreground": "#98d1ff"
+                }
+              },
+              {
+                "scope": "constant.language.note.supertext",
+                "settings": {
+                  "foreground": "#F3ED72"
+                }
+              },
+              {
+                "scope": "constant.language.date.supertext",
+                "settings": {
+                  "foreground": "#F3ED72"
+                }
+              },
+              {
+                "scope": "constant.language.quote.supertext",
+                "settings": {
+                  "foreground": "#bda385"
+                }
+              },
+              {
+                "scope": "constant.language.divider.supertext",
+                "settings": {
+                  "foreground": "#4aff40"
+                }
+              },
+              {
+                "scope": "text.supertext",
+                "settings": {
+                  "foreground": "#DBDBDB"
+                }
+              }
+            ]
+          }
+        }
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/fpsvogel/supertext.git"
+    }
+}
